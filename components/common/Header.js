@@ -1,6 +1,5 @@
 export default function Header(props) {
     const {isMobile} = props;
-    console.log(isMobile);
     return (
             <header className="flex flex-row px-2 border-b border-slate-600 pb-2">
                 <div className={`${isMobile ? "basis-2/2" : "basis-1/2"} flex gap-3`}>
